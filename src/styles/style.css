@@ -1,0 +1,51 @@
+* {
+  /* font-family: Georgia, serif; */
+}
+
+textbox {
+	width: 1s;
+}
+
+hstack {
+	height: auto;
+	col-between: 10px;
+	child-top: 1s;
+	child-bottom: 1s;
+}
+
+.outer {
+	height: 1s;
+	row-between: 50px;
+	child-left: 40px;
+	child-right: 40px;
+}
+
+.password {
+	font-size: xx-large;
+	font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.password-container {
+	border: 1px solid rgb(83, 83, 83);
+	margin-top: 20px;
+	width: calc(100% - (80px));
+	margin: 0 auto;
+	border-radius: 8px;
+	background-color: rgb(248, 255, 253);
+	child-top: 1s;
+	child-bottom: 1s;
+	/* width: 1s;
+	text-align: center; */
+}
+
+button {
+	top: 40px;
+	background-color: rgb(255, 255, 255);
+	transition: background-color 100ms;
+}
+
+button:hover {
+	background-color: rgb(199, 255, 203);
+	transition: background-color 100ms;
+}
